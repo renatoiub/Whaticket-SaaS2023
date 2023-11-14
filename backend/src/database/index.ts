@@ -32,6 +32,8 @@ import ChatUser from "../models/ChatUser";
 import ChatMessage from "../models/ChatMessage";
 import Invoices from "../models/Invoices";
 import Subscriptions from "../models/Subscriptions";
+import Email from "../models/Email";
+import SignEmail from "../models/SignEmail";
 
 // eslint-disable-next-line
 const dbConfig = require("../config/database");
@@ -56,6 +58,7 @@ const models = [
   QuickMessage,
   Help,
   TicketTraking,
+  SignEmail,
   UserRating,
   QueueOption,
   Schedule,
@@ -69,6 +72,7 @@ const models = [
   CampaignShipping,
   Announcement,
   Chat,
+  Email,
   ChatUser,
   ChatMessage,
   Invoices,

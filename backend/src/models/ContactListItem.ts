@@ -13,6 +13,7 @@ import {
 } from "sequelize-typescript";
 import Company from "./Company";
 import ContactList from "./ContactList";
+import Email from "./Email";
 
 @Table({ tableName: "ContactListItems" })
 class ContactListItem extends Model<ContactListItem> {

@@ -353,6 +353,7 @@ const messages = {
           campaigns: "Campanhas",
           annoucements: "Informativos",
           chats: "Chat Interno",
+          email: "E-Mail",
           financeiro: "Financeiro",
           kanban: "Kanban",
         },

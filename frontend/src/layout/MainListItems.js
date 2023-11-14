@@ -50,6 +50,7 @@ import PieChartOutlinedIcon from '@material-ui/icons/PieChartOutlined';
 import LocalPhoneOutlinedIcon from '@material-ui/icons/LocalPhoneOutlined';
 import ContactlessOutlinedIcon from '@material-ui/icons/ContactlessOutlined';
 import HelpOutlineOutlinedIcon from '@material-ui/icons/HelpOutlineOutlined';
+import EmailIcon from '@material-ui/icons/Email';
 import ExploreOutlinedIcon from '@material-ui/icons/ExploreOutlined';
 import FlipCameraAndroidOutlinedIcon from '@material-ui/icons/FlipCameraAndroidOutlined';
 //import NotificationImportantOutlinedIcon from '@material-ui/icons/NotificationImportantOutlined';
@@ -347,6 +348,12 @@ const MainListItems = (props) => {
             <FlipCameraAndroidOutlinedIcon />
           </Badge>
         }
+      />
+
+    <ListItemLink
+        to="/email"
+        primary={i18n.t("mainDrawer.listItems.email")}
+        icon={<EmailIcon/>}
       />
 
       <ListItemLink
